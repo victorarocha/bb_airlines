@@ -1,0 +1,78 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"ftEgkNHd1z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">BB Airlines</span>\",\"col\":12}},{\"id\":\"YSN8l7YWSk\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Ticket\",\"col\":3}},{\"id\":\"5BQiZVwVNl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Passenger\",\"col\":3}},{\"id\":\"C_hVD0t2Dt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"5aI4tHxQme\",\"type\":\"paragraph\",\"data\":{\"text\":\"Catalog\",\"col\":12}},{\"id\":\"qRyGWHzb-m\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Passengers\",\"col\":3}},{\"id\":\"8_j-jKdJXv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Airlines\",\"col\":3}},{\"id\":\"s5iJ2TYgWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Airplanes\",\"col\":3}},{\"id\":\"OODJXKzlDQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Airports\",\"col\":3}}]",
+ "creation": "2024-06-10 21:40:22.465664",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-energy-points",
+ "idx": 0,
+ "indicator_color": "orange",
+ "is_hidden": 0,
+ "label": "BB Airlines",
+ "links": [],
+ "modified": "2024-06-11 19:39:55.374867",
+ "modified_by": "Administrator",
+ "module": "Bb Airlines",
+ "name": "BB Airlines",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New Ticket",
+   "link_to": "Airplane Ticket",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Airports",
+   "link_to": "Airport",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New Passenger",
+   "link_to": "Flight Passenger",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Passengers",
+   "link_to": "Flight Passenger",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Airlines",
+   "link_to": "Airline",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Airplanes",
+   "link_to": "Airplane",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "BB Airlines"
+}
