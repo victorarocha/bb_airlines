@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "autoname": "autoincrement",
  "creation": "2024-06-08 22:07:14.823877",
  "doctype": "DocType",
@@ -37,7 +38,7 @@
    "link_fieldname": "passenger"
   }
  ],
- "modified": "2024-06-09 12:14:08.006732",
+ "modified": "2024-06-11 19:21:53.415481",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "Flight Passenger",
