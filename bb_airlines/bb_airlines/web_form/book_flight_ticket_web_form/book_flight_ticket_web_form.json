@@ -19,7 +19,7 @@
  "list_columns": [],
  "login_required": 0,
  "max_attachment_size": 0,
- "modified": "2024-06-12 21:14:29.597582",
+ "modified": "2024-06-13 08:41:58.070009",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "book-flight-ticket-web-form",
@@ -75,7 +75,7 @@
   },
   {
    "allow_read_on_all_link_options": 0,
-   "default": "1500",
+   "default": "",
    "fieldname": "flight_price",
    "fieldtype": "Currency",
    "hidden": 0,

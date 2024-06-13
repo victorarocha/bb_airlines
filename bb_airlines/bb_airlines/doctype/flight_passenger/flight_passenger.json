@@ -22,8 +22,7 @@
   {
    "fieldname": "last_name",
    "fieldtype": "Data",
-   "label": "Last Name",
-   "reqd": 1
+   "label": "Last Name"
   },
   {
    "fieldname": "date_of_birth",
@@ -46,7 +45,7 @@
    "link_fieldname": "passenger"
   }
  ],
- "modified": "2024-06-11 20:07:23.727350",
+ "modified": "2024-06-13 08:46:47.441208",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "Flight Passenger",

@@ -12,7 +12,7 @@
         <span class="text-secondary">Departure date:</span> {{ frappe.utils.format_date(doc.date_of_departure, "d MMM, YYYY") }} <br>
         <span class="text-secondary">Departure time:</span> {{ doc.time_of_departure }} <br>
         <span class="text-secondary">Duration:</span> {{ frappe.utils.format_duration(doc.duration) }}</p>
-	  	<a class="btn btn-primary" href="/book-flight-ticket-web-form/new?flight={{doc.name}}" class="card-link">Book Flight</a>
+	  	<a class="btn btn-primary" href="/book-flight-ticket-web-form/new?flight={{doc.name}}&flight_price=1000" class="card-link">Book Flight</a>
 	</div>
 </div>
 
