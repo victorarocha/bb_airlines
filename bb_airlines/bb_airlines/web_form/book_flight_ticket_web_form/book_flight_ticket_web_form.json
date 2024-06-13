@@ -7,7 +7,7 @@
  "allow_print": 0,
  "anonymous": 0,
  "apply_document_permissions": 0,
- "button_label": "Save",
+ "button_label": "Confirm",
  "condition_json": "[]",
  "creation": "2024-06-12 20:25:29.588536",
  "doc_type": "Airplane Ticket",
@@ -19,7 +19,7 @@
  "list_columns": [],
  "login_required": 0,
  "max_attachment_size": 0,
- "modified": "2024-06-12 20:27:30.696306",
+ "modified": "2024-06-12 21:14:29.597582",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "book-flight-ticket-web-form",
@@ -29,6 +29,8 @@
  "show_attachments": 0,
  "show_list": 0,
  "show_sidebar": 0,
+ "success_message": "You will receive the details in your email soon",
+ "success_title": "Ticket Booked",
  "title": "Book Flight Ticket Web Form",
  "web_form_fields": [
   {
