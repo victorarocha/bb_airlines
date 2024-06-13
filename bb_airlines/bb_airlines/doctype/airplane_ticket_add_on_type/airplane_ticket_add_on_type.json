@@ -1,45 +1,32 @@
 {
  "actions": [],
- "allow_import": 1,
  "allow_rename": 1,
  "autoname": "prompt",
- "creation": "2024-06-08 22:06:13.489534",
+ "creation": "2024-06-11 20:10:09.131100",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "code",
-  "city",
-  "country"
+  "section_break_vd2e",
+  "description"
  ],
  "fields": [
   {
-   "fieldname": "code",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Code",
-   "reqd": 1
+   "fieldname": "section_break_vd2e",
+   "fieldtype": "Section Break"
   },
   {
-   "fieldname": "city",
+   "fieldname": "description",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "City",
-   "reqd": 1
-  },
-  {
-   "fieldname": "country",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Country",
-   "reqd": 1
+   "label": "Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-11 19:52:56.614457",
+ "modified": "2024-06-11 20:18:13.769080",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
- "name": "Airport",
+ "name": "Airplane Ticket Add-on Type",
  "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [

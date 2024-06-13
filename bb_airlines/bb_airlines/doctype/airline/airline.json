@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "prompt",
  "creation": "2024-06-08 21:52:23.811012",
@@ -39,7 +40,7 @@
    "link_fieldname": "airline"
   }
  ],
- "modified": "2024-06-09 12:12:22.019809",
+ "modified": "2024-06-11 19:52:26.617365",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "Airline",

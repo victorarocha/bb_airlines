@@ -1,7 +1,6 @@
 {
  "actions": [],
  "allow_import": 1,
- "allow_import": 1,
  "autoname": "autoincrement",
  "creation": "2024-06-10 22:31:17.608009",
  "doctype": "DocType",
@@ -36,7 +35,8 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
-   "label": "Full Name"
+   "label": "Full Name",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
@@ -46,7 +46,7 @@
    "link_fieldname": "passenger"
   }
  ],
- "modified": "2024-06-11 19:21:53.415481",
+ "modified": "2024-06-11 20:07:23.727350",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "Flight Passenger",
@@ -70,5 +70,5 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "first_name"
+ "title_field": "full_name"
 }

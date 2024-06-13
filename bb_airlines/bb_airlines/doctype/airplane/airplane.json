@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format:{airline}-{###}",
  "creation": "2024-06-08 21:59:57.083494",
@@ -37,7 +38,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-08 22:11:52.009035",
+ "modified": "2024-06-12 10:44:41.525829",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "Airplane",

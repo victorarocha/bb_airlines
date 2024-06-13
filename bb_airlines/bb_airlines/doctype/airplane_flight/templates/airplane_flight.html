@@ -1,0 +1,24 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<div class="card mt-2" style="width: auto;">
+	<div class="card-body">
+		<h5 class="card-title">{{ doc.name }}</h5>
+		<h6 class="card-subtitle mb-2 text-muted">{{ doc.source_airport_code }} ➜ {{ doc.destination_airport_code }}</h6>
+		<p class="card-text">
+        {% set airplane_doc = frappe.get_doc("Airplane", doc.airplane) %}
+        
+        <span class="text-secondary">Airline:</span> <span class="text-info">{{ airplane_doc.airline }}</span> <br>
+        <span class="text-secondary">Departure date:</span> {{ frappe.utils.format_date(doc.date_of_departure, "d MMM, YYYY") }} <br>
+        <span class="text-secondary">Departure time:</span> {{ doc.time_of_departure }} <br>
+        <span class="text-secondary">Duration:</span> {{ frappe.utils.format_duration(doc.duration) }}</p>
+	  	<a class="btn btn-primary" href="/book-flight-ticket-web-form/new?flight={{doc.name}}" class="card-link">Book Flight</a>
+	</div>
+</div>
+
+{% endblock %}
+
+
+
+
+<!-- this is a sample default web page template -->

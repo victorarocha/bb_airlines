@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"ftEgkNHd1z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">BB Airlines</span>\",\"col\":12}},{\"id\":\"YSN8l7YWSk\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Ticket\",\"col\":3}},{\"id\":\"5BQiZVwVNl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Passenger\",\"col\":3}},{\"id\":\"C_hVD0t2Dt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"5aI4tHxQme\",\"type\":\"paragraph\",\"data\":{\"text\":\"Catalog\",\"col\":12}},{\"id\":\"qRyGWHzb-m\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Passengers\",\"col\":3}},{\"id\":\"8_j-jKdJXv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Airlines\",\"col\":3}},{\"id\":\"s5iJ2TYgWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Airplanes\",\"col\":3}},{\"id\":\"OODJXKzlDQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Airports\",\"col\":3}}]",
+ "content": "[{\"id\":\"ftEgkNHd1z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">BB Airlines</span>\",\"col\":12}},{\"id\":\"YSN8l7YWSk\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Ticket\",\"col\":3}},{\"id\":\"5BQiZVwVNl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Passenger\",\"col\":3}},{\"id\":\"C_hVD0t2Dt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"5aI4tHxQme\",\"type\":\"paragraph\",\"data\":{\"text\":\"Catalog\",\"col\":12}},{\"id\":\"qRyGWHzb-m\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Passengers\",\"col\":3}},{\"id\":\"8_j-jKdJXv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Airlines\",\"col\":3}},{\"id\":\"s5iJ2TYgWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Airplanes\",\"col\":3}},{\"id\":\"OODJXKzlDQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Airports\",\"col\":3}},{\"id\":\"G9L1d2vOFH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Flights\",\"col\":3}},{\"id\":\"Cl6Uvdnrpj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tickets\",\"col\":3}}]",
  "creation": "2024-06-10 21:40:22.465664",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "BB Airlines",
  "links": [],
- "modified": "2024-06-11 19:39:55.374867",
+ "modified": "2024-06-12 10:56:01.271757",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "BB Airlines",
@@ -25,6 +25,22 @@
  "roles": [],
  "sequence_id": 2.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Flights",
+   "link_to": "Airplane Flight",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Tickets",
+   "link_to": "Airplane Ticket",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
   {
    "color": "Grey",
    "doc_view": "New",
