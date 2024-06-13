@@ -20,6 +20,7 @@ class AirplaneTicket(Document):
 		# generate a random row letter between A (chr 65) and E (chr 69)
 		seat_letter = chr(randrange(65, 70))
 		self.seat = f"{seat_row}{seat_letter}"
+		self.total_amount = sum([add_on.amount for add_on in self.add_ons]) + self.flight_price
 
 	def check_add_ons_duplicates(self):
 		items = []
