@@ -9,7 +9,8 @@
  "field_order": [
   "founding_year",
   "customer_care_number",
-  "headquarters"
+  "headquarters",
+  "website"
  ],
  "fields": [
   {
@@ -31,6 +32,12 @@
    "in_list_view": 1,
    "label": "Customer Care Number",
    "reqd": 1
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website",
+   "options": "URL"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -40,7 +47,7 @@
    "link_fieldname": "airline"
   }
  ],
- "modified": "2024-06-11 19:52:26.617365",
+ "modified": "2024-06-17 09:14:09.614891",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "Airline",

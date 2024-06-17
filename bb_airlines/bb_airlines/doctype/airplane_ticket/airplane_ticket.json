@@ -12,9 +12,11 @@
   "section_break_gmoi",
   "passenger",
   "status",
+  "source_airport_code",
   "column_break_nnmx",
   "flight",
   "seat",
+  "destination_airport_code",
   "section_break_tnvd",
   "add_ons",
   "section_break_vcnv",
@@ -52,11 +54,28 @@
    "search_index": 1
   },
   {
+   "fetch_from": "flight.source_airport_code",
+   "fieldname": "source_airport_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Source Airport Code",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "flight.destination_airport_code",
+   "fieldname": "destination_airport_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Destination Airport Code",
+   "read_only": 1
+  },
+  {
    "fieldname": "flight",
    "fieldtype": "Link",
    "label": "Flight",
    "options": "Airplane Flight",
-   "reqd": 1
+   "reqd": 1,
+   "search_index": 1
   },
   {
    "fetch_from": "flight.date_of_departure",
@@ -144,7 +163,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-06-12 10:57:22.443001",
+ "modified": "2024-06-17 14:43:24.901740",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "Airplane Ticket",
