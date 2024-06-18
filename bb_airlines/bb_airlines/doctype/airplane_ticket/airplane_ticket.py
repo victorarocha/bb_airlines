@@ -9,7 +9,7 @@ from frappe.model.document import Document
 class AirplaneTicket(Document):
 	def validate(self):
 		self.check_add_ons_duplicates()
-		frappe.throw(f"Capacity: {self.flight.airplane.capacity}")
+		self.check_airplane_capacity()
 
 	def before_submit(self):
 		if self.status != "Boarded":
@@ -40,4 +40,12 @@ class AirplaneTicket(Document):
 		seat_letter = chr(randrange(65, 70))
 		self.seat = f"{seat_row}{seat_letter}"
 		self.total_amount = sum([add_on.amount for add_on in self.add_ons]) + self.flight_price
+	
+	def check_airplane_capacity(self):
+		flight = frappe.get_doc("Airplane Flight", self.flight)
+		airplane = frappe.get_doc("Airplane", flight.airplane)
+		tickets_for_flight = frappe.get_all("Airplane Ticket", fields=['name'], filters={"flight":flight.name})
+
+		if len(tickets_for_flight) >= airplane.capacity:
+			frappe.throw("The flight is full")
 
