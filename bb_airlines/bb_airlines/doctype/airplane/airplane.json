@@ -9,7 +9,8 @@
  "field_order": [
   "model",
   "airline",
-  "capacity"
+  "capacity",
+  "initial_audit_completed"
  ],
  "fields": [
   {
@@ -25,7 +26,8 @@
    "in_list_view": 1,
    "label": "Airline",
    "options": "Airline",
-   "reqd": 1
+   "reqd": 1,
+   "search_index": 1
   },
   {
    "fieldname": "capacity",
@@ -34,11 +36,18 @@
    "label": "Capacity",
    "non_negative": 1,
    "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "initial_audit_completed",
+   "fieldtype": "Check",
+   "label": "Initial Audit Completed",
+   "permlevel": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-19 19:26:34.489353",
+ "modified": "2024-06-19 19:48:01.532966",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "Airplane",
@@ -98,6 +107,18 @@
    "report": 1,
    "role": "Flight Crew Member",
    "share": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Airport Authority Personnel",
+   "share": 1,
+   "write": 1
   }
  ],
  "sort_field": "modified",
