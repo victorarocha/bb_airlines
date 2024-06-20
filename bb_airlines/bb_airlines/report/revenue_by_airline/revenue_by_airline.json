@@ -12,11 +12,11 @@
  "modified": "2024-06-19 12:43:47.037524",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
- "name": "Revenue by Airline",
+ "name": "Revenue By Airline",
  "owner": "Administrator",
  "prepared_report": 0,
  "ref_doctype": "Airline",
- "report_name": "Revenue by Airline",
+ "report_name": "Revenue By Airline",
  "report_type": "Script Report",
  "roles": [
   {

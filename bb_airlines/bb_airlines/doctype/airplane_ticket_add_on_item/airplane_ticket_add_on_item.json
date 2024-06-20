@@ -27,13 +27,14 @@
    "default": "0",
    "fieldname": "amount",
    "fieldtype": "Currency",
-   "label": "Amount"
+   "label": "Amount",
+   "options": "USD"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-13 09:47:04.616154",
+ "modified": "2024-06-19 17:18:20.443519",
  "modified_by": "Administrator",
  "module": "Bb Airlines",
  "name": "Airplane Ticket Add-on Item",
